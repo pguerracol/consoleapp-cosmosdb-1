@@ -1,0 +1,7 @@
+dotnet new console --langVersion 7.1 -n consoleapp-cosmosdb-1
+cd consoleapp-cosmosdb-1
+dotnet build
+dotnet add package Microsoft.Azure.Cosmos
+
+setx EndpointUrl "https://pg-mysqlapicosmosdb.documents.azure.com:443/"
+setx PrimaryKey "8KgKq87iOFHyjOhhG222GhcEFhrju3ti6x73qOIZ5YhGBOdBW4FUYau6s5p8rkvK2WosadYKlWSm2xg3EMONTg=="
