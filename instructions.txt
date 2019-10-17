@@ -5,3 +5,22 @@ dotnet add package Microsoft.Azure.Cosmos
 
 setx EndpointUrl "https://pg-mysqlapicosmosdb.documents.azure.com:443/"
 setx PrimaryKey "8KgKq87iOFHyjOhhG222GhcEFhrju3ti6x73qOIZ5YhGBOdBW4FUYau6s5p8rkvK2WosadYKlWSm2xg3EMONTg=="
+
+
+dotnet build
+
+dotnet run
+
+Register My ip in cosmos db firewall:
+181.51.116.175
+
+
+
+********// PARA guardar un proyecto la 1era VEZ //**********************
+git init
+git add --all
+git commit -m "First version"
+git remote add origin https://github.com/pguerracol/consoleapp-cosmosdb-1
+git push -u origin --all
+
+
